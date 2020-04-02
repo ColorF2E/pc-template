@@ -2,14 +2,15 @@ const path = require('path');
 const cwd = process.cwd();
 
 const resolve = (dir) => {
-    return path.join(cwd,dir);
+    return path.join(cwd, dir);
 };
 
 // 接口域名
-var proxy_url = 'http://erp.ishangzu.com'
+var proxy_url = 'http://erp.ishangzu.com';
 
 // 项目配置代理
 module.exports = {
+    title: 'PC端模版',
     href: 'test.tianque.com',
     port: 8081,
     proxy: {
