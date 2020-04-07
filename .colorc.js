@@ -11,7 +11,7 @@ var proxy_url = 'http://erp.ishangzu.com';
 // 项目配置代理
 module.exports = {
     title: 'PC端模版',
-    href: 'test.tianque.com',
+    href: 'pc.tianque.com',
     port: 8081,
     proxy: {
         '/isz_base': {
